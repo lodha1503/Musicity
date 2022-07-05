@@ -1,0 +1,455 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body
+{
+    padding:0;
+    margin:0;
+}
+html
+{
+    scroll-behavior: smooth;
+    
+}
+
+.modification        
+{
+    top:0px;
+    width: 100%;
+    z-index: 1;
+    position:fixed;
+    overflow: auto;
+    list-style-type:none;  /* This is used to remove the bulletins */
+    margin:0;
+    padding-left: 10px;     /* used to cover the space in in the given direction */
+    background-color:black; 
+    color:white;
+   
+}
+
+.modification li
+{
+    float: left;       /* staring from left and going towards right */
+    padding:15px;       /* pad the list item */
+}
+.modification li a
+{
+    color:white;
+    padding:15px;  /* white region ko expand karna */
+    text-decoration: none;
+    font-size:20px ;
+}
+
+.modification li a:hover
+{
+    
+    background-color: whitesmoke;
+    color: black;
+}
+
+.img_style
+{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+   
+  }
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    font-size: larger;
+
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+#Band h1
+{
+    
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Band h4
+{
+    text-align: center;
+    font-family:"Lato", sans-serif;
+}
+
+#BandContent
+{
+    max-width: 700px;
+    margin: auto;
+    text-align: justify;
+}
+
+.bandmembers img
+{
+    width: 160px;
+    
+}
+
+.bandmembers 
+{
+    
+    max-width: 700px;
+    margin: auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.Tour_Dates
+{
+    text-align: center;
+    background-color: black;
+    height: 920px;
+    width: 100%;
+}
+
+#Tour h1
+{
+    margin:0%;
+    padding-top: 50px;
+    color:white; 
+    font-family:'Poppins', sans-serif;;
+    font-weight:900;
+    font-size :50px;
+}
+
+#Tour h4{
+    margin-top:0;
+    
+    color: gainsboro;
+    font-weight:400;
+    padding-top: 10px;
+
+}
+
+#Tour ul
+{
+    list-style-type:none;
+    color: #ffffff;
+}
+
+.box
+{
+    height: 150px;
+    width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    margin-bottom: 4%;
+}
+
+.box1,.box2,.box3
+{
+    height: 50px;
+    width: 700px;
+    border-bottom: .2px solid black;
+    display: flex;
+    justify-self: left;
+    align-items: center;
+}
+
+
+.box1 p
+{ 
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.702);
+    margin: 0;
+   
+}
+.box2 p
+{ 
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.702);
+    margin: 0;
+    
+}
+.box3 p
+{ 
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.702);
+    margin: 0;
+  
+}
+
+.box1  span
+{
+    background-color: red;
+    color: #ffffff;
+}
+.box2  span
+{
+    background-color: red;
+    color: #ffffff;
+}
+.box3
+{
+    display:flex;
+    justify-content: space-between;
+} 
+
+
+.box3 span
+{
+    background-color:black;
+    color: #ffffff;
+    border-radius: 50%;
+    padding-left:4px;
+    padding-right:4px;
+    
+}
+
+.Available
+{
+    height: 400px;
+    width: 700px;
+   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#place
+{
+    height: 410px;
+    width: 220px;
+    background-color: white
+}
+
+#place img
+{
+    height: 180px;
+    width: 220px;
+}
+
+.image
+{
+    height: 180px;
+    width: 220px;
+    background-color: black;
+}
+
+#place .text
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    
+}
+
+
+#place h2
+{
+    color: rgba(0, 0, 0, 0.464);
+  
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+#place h3
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+#place p
+{
+    font-weight: 400;
+}
+
+#place button
+{
+    background-color: black;
+    color: #ffffff;
+    padding: 12px;
+    font-size:medium;
+}
+
+#place img:hover
+{
+    opacity:.5;
+}
+
+#place button:hover
+{
+    background-color:rgba(0, 0, 0, 0.254);
+    color:black;
+    
+}
+
+.contact
+{
+    background-color: #ffffff;
+    height: 380px;
+    text-align: center;
+}
+
+
+.contact h1
+{
+    
+    margin:0%;
+    padding-top: 50px;
+    color:black; 
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size :35px;
+    letter-spacing: 4px;
+}
+
+.contact h4{
+    margin-top:0;
+    
+    color: rgba(0, 0, 0, 0.604);
+    font-weight:400;
+    padding-top: 10px;
+
+}
+
+.form
+{
+    
+    width: 700px;
+    height:350px;
+    margin: auto;
+    
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone
+{
+    margin-left: 0%;
+    margin-top: 10%;
+    background-color:white;
+    width:350px;
+    height:190px;
+    line-height: 0%;
+   
+    
+}
+.phone p
+{
+    margin:4%
+}
+.fill
+{
+    margin-top: 10%;
+   
+    width:340px;
+    height:100px;
+}
+.form p
+{
+    margin-top: 0%;
+}
+
+.phone p
+{
+    text-align: left;
+    font-size: large;
+}
+
+.fill
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.daba1
+{
+    width:320px;
+    display:flex;
+    justify-content: space-between;
+    height:45px;
+}
+.daba1
+{
+
+    display:flex;
+    
+    height:45px;
+    width:340px;
+}
+.daba1 input
+{
+    width: 46%;
+}
+.daba2 input
+{
+    margin-top:2%;
+    width:332px;
+    height: 45px;
+}
+
+.fill button
+{
+    background-color: black;
+    color:#ffffff;
+    padding: 10px;
+    margin-top:10%;
+    margin-left:80%;
+} 
+.fill button:hover
+{
+    background-color: rgba(0, 0, 0, 0.303);
+    color: black;
+    
+} 
+
+
+
+.icons
+{
+    height:200px;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    font-size: x-large;
+}
+
+.fa-facebook
+ {
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+    padding:1.2px;
+}
+
+.fa-linkedin {
+
+    color: rgba(0, 0, 0, 0.502);
+}
+
+.fa-instagram {
+    background: white;
+    color: rgba(0, 0, 0, 0.502);
+}
+
+.fa-twitter {
+
+    color: rgba(0, 0, 0, 0.502);
+}
+
+.icons a
+{
+
+    margin-right:10px;
+    text-decoration: none;
+}
+.text button a
+{
+    color: #ffffff;
+}
+
+
+  
