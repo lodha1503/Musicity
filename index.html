@@ -6,9 +6,11 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <title>The BAND</title>
     </head>
-
+    
     <body>
         
         <!-- <div class="popup1" id="pu1">
@@ -80,7 +82,7 @@
             <h1>TOUR DATES</h1>
             <h4><i>Remember to book your tickets!</i></h4>
 
-            <div class="box">
+            <div id="l" class="box">
                 <div class="box1">
                     <p>&emsp;September &emsp;</span></p><span><b>SOLD OUT</b>
                 </div>
@@ -95,6 +97,7 @@
             </div>
 
             <div id="A" class="Available">
+
                 <div id="place" class="New_York">
                     <div class="image">
                         <img src="./assets/Images/newyork.jpg" alt="New_York">
@@ -104,12 +107,12 @@
                         <h3>New York</h3>
                         <h2>Fri 27 Nov 2016</h2>
                         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.<p>
-                        <button >
-                            <a href="#pu1">Buy tickets </a> 
+                        <button onclick="location.href='#pop'">
+                            <a href="#pop">Buy tickets </a> 
                         </button>
-                    </div>
-                    
+                    </div> 
                 </div>
+
                 <div id="place" class="Paris">
                     <div class="image">
                         <img src="./assets/Images/paris.jpg" alt="Paris">
@@ -119,8 +122,8 @@
                         <h3>Paris</h3>
                         <h2>Fri 28 Nov 2016</h2>
                         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button >
-                            <a href="#pu1">Buy tickets </a> 
+                        <button onclick="location.href='#pop'">
+                            <a href="#pop">Buy tickets </a> 
                         </button>
                     </div>
 
@@ -134,8 +137,8 @@
                         <h3>San Francisco</h3>
                         <h2>Fri 29 Nov 2016</h2>
                         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button >
-                            <a href="#pu1">Buy tickets </a> 
+                        <button onclick="location.href='#pop'">
+                            <a href="#pop">Buy tickets </a> 
                         </button>
                     </div>
                 </div>
@@ -164,7 +167,7 @@
                         <input type="text" placeholder="Message" required>
                     </div>
                     
-                    <button class="right">SEND</button>
+                    <button ~ class="right">SEND</button>
                     
                 </div>
             </div>
@@ -178,8 +181,33 @@
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-facebook"></a>
+        </div>
 
+        <div id="pop">
+            <div class="popup">
 
+                    <div class="up">
+                        <div onclick="location.href='#l'" class="close">
+                            <a >&times;</a>
+                        </div>
+                        <div class="Ticket">
+                            <p ><i class="fa-solid fa-suitcase"></i>&nbsp;Tickets<p>
+                        </div>    
+                    </div>
+
+                    <div class="down">
+                        <label for="">
+                            <i class="fa-solid fa-cart-shopping"></i>&nbsp;Tickets, $15 per person
+                        </label>
+                        <input type="text" placeholder="Enter Email"> 
+                        <label for="">
+                            <i class="fa-solid fa-user"></i>&nbsp;Send To
+                        </label>
+                        <input type="email" placeholder="Enter Email">
+                        <button>PAY&nbsp;<i class="fa-solid fa-check" aria-hidden="true"></i></button>
+                    </div>  
+            </div>
         </div>
     </body>
+    <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
 </html>
